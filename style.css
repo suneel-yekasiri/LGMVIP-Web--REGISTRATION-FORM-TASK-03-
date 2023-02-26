@@ -1,1 +1,149 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+
+
+form {
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	background-color: #f9f9f9;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form h2 {
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #555;
+}
+
+form label {
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #555;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+	padding: 10px;
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 5px;
+}
+
+form select {
+	background-color: #fff;
+}
+
+form input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+#displayed-data h2 {
+	margin-bottom: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #555;
+}
+
+#displayed-data p {
+	margin-bottom: 10px;
+	line-height: 1.5;
+	color: #333;
+}
+
+#displayed-data strong {
+	color: #555;
+	font-weight: bold;
+}
+
+#submitted-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+#submitted-image img {
+	max-width: 200px;
+	max-height: 200px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+#displayed-data {
+  width: 45%;
+  background-color:bisque;
+  padding: 70px;
+  margin: 70px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-right: 20px; /* add margin to the right */
+}
+
+#registration-form {
+  width: 45%;
+  background-color:aqua;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#registration-form h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #555;
+  margin-top: 0; /* move heading to the top */
+}
+
+#registration-form > div {
+  margin-top: 30px; /* add space between heading and form */
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  #displayed-data,
+  #registration-form {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+}
+.king{
+	background-color: #4CAF50;
+}
 

@@ -1,5 +1,7 @@
+
 * {
 	box-sizing: border-box;
+	color:indigo;
 	margin: 0;
 	padding: 0;
 }
@@ -9,6 +11,11 @@ body {
 }
 
 
+footer{
+        margin-top: 60px;
+        text-align: center;
+		color:black;
+     }
 
 form {
 	width: 45%;
@@ -47,7 +54,7 @@ form select {
 }
 
 form input[type="submit"] {
-	background-color: #4CAF50;
+	background-color:crimson;
 	color: white;
 	padding: 10px 20px;
 	border: none;
@@ -144,6 +151,5 @@ form input[type="submit"]:hover {
   }
 }
 .king{
-	background-color: #4CAF50;
+	background-color:honeydew;
 }
-

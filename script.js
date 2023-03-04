@@ -1,3 +1,4 @@
+
 const registrationForm = document.querySelector('#registration-form');
 const submittedFirstName = document.querySelector('#submitted-first-name');
 const submittedLastName = document.querySelector('#submitted-last-name');

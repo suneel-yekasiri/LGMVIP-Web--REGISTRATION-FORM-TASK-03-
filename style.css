@@ -99,9 +99,6 @@ form input[type="submit"]:hover {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-
-
-
 .container {
   display: flex;
   flex-direction: row;
